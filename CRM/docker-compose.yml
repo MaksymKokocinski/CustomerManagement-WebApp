@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  crm:
+    image: crm
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 8200:8200
