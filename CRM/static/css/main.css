@@ -1,18 +1,24 @@
 
-    body{
-        background-color:white;
-    }
+
+body{
+    background-color: red !important;
+    background-image: none;
+}
 
 
-    total-orders{
-        background-color: blue;
-    }
+total-orders{
+    background-color: blue !important;
+    background-image: none;
+}
 
 
-    #orders-delivered{
-        background-color: red;
-    }
+orders-delivered{
+    background-color: red;
+    background-image: none;
+}
 
-    orders-pending{
-        background-color: #22ddb7;
-    }
+orders-pending{
+    background-color: #22ddb7;
+    background-image: none;
+}
+
