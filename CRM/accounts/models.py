@@ -17,7 +17,7 @@ class Tag(models.Model):
 
 class Product(models.Model):
     CATEGORY = (
-        ('Indoor','Indor'),
+        ('Indoor','Indoor'),
         ('Out Door', 'Out Door'),
     )
     name = models.CharField(max_length=200, null=True)
@@ -38,7 +38,7 @@ class Order(models.Model):
         ('Delivered','Delivered'),
     )
     customer = models.ForeignKey(Customer, null=True, on_delete=models.SET_NULL)
-    product = models.ForeignKey(Product, null=True,on_delete=models.SET_NULL )
+    products = models.ForeignKey(Product, null=True,on_delete=models.SET_NULL )
     date_created = models.DateTimeField(auto_now_add = True,null=True)
     status = models.CharField(max_length=200, null=True, choices=STATUS)
 

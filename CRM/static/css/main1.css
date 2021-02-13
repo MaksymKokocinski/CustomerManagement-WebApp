@@ -1,0 +1,24 @@
+
+
+body{
+    background-color: rgb(207, 207, 207) !important;
+    background-image: none;
+}
+
+
+total-orders{
+    background-color: rgba(84, 156, 224, 0.767) !important;
+    background-image: none;
+}
+
+
+orders-delivered{
+    background-color: rgb(158, 88, 223);
+    background-image: none;
+}
+
+orders-pending{
+    background-color: rgb(69, 235, 226);
+    background-image: none;
+}
+
